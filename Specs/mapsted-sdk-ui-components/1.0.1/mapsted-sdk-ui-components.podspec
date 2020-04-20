@@ -1,6 +1,6 @@
 Pod::Spec.new do |s|  
     s.name              = 'mapsted-sdk-ui-components'
-    s.version           = '1.0.1'
+    s.version           = '1.0.2'
     s.summary           = 'Mapsted UI Components SDK'
     s.homepage          = 'https://mapsted.com/developer-tools-resources-indoor-navigation-api'
 
@@ -8,10 +8,10 @@ Pod::Spec.new do |s|
     s.license          = 'Mapsted Corp.'
 
     s.platform          = :ios 
-    s.source            = { :git => "https://github.com/Mapsted/mapsted-sdk-ui-components.git", :tag => '1.0.1' }
+    s.source            = { :git => "https://github.com/Mapsted/mapsted-sdk-ui-components.git", :tag => '1.0.2' }
     s.source_files  = "appuikit.framework/Headers/*.{h,m}"
     s.ios.deployment_target = '11.0'
-    s.ios.vendored_frameworks = 'mapsted-sdk-ui-components.framework'
+    s.ios.vendored_frameworks = 'appuikit.framework'
     s.dependency 'Firebase/Core'
     s.dependency 'Firebase/Messaging'
     s.dependency 'ColorThiefSwift'
