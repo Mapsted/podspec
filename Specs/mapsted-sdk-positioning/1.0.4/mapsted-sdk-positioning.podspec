@@ -13,10 +13,10 @@ Pod::Spec.new do |s|
     s.ios.deployment_target = '11.0'
     s.ios.vendored_frameworks = 'positioning.framework'
     s.libraries = "z", "c++"
-    s.dependency 'Alamofire', '~> 4.7.3'
-    s.dependency 'Alamofire-Synchronous', '~> 4.0'
+    s.dependency 'Alamofire'
+    s.dependency 'Alamofire-Synchronous'
     s.dependency 'CocoaMQTT'
-    s.dependency 'SSZipArchive', '~> 2.0.8'
+    s.dependency 'SSZipArchive'
     s.dependency 'AWSMobileClient'
     s.dependency 'AWSS3'
 end  
