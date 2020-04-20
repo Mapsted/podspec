@@ -12,6 +12,8 @@ Pod::Spec.new do |s|
     s.source_files  = "appuikit.framework/Headers/*.{h,m}"
     s.ios.deployment_target = '11.0'
     s.ios.vendored_frameworks = 'mapsted-sdk-ui-components.framework'
+    s.dependency 'Firebase/Core'
+    s.dependency 'Firebase/Messaging'
     s.dependency 'ColorThiefSwift'
     s.dependency 'FacebookLogin'
     s.dependency 'GoogleSignIn'
