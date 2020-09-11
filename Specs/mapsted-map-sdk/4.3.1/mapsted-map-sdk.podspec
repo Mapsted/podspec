@@ -10,6 +10,6 @@ Pod::Spec.new do |s|
     s.platform          = :ios
     s.source            = { :http => "https://cocoapod.s3.amazonaws.com/core-map-sdk-4.3.1.zip" }
     s.ios.deployment_target = '12.0'
-    s.ios.vendored_frameworks = "mapsted-map-sdk/MapSDK.framework"
+    s.ios.vendored_frameworks = "MapSDK.framework"
     s.libraries = "z", "c++"
 end  
