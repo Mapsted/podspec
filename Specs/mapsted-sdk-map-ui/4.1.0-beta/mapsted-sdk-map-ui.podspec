@@ -13,4 +13,5 @@ Pod::Spec.new do |s|
     s.ios.deployment_target = '12.0'
     s.ios.vendored_frameworks = "MapstedMapUi.framework"
     s.libraries = "z", "c++"
+    s.dependency 'mapsted-sdk-map'
 end  
