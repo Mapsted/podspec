@@ -14,6 +14,6 @@ Pod::Spec.new do |s|
     s.ios.vendored_frameworks = "MapstedMap.framework","coremap.framework"
     s.libraries = "z", "c++"
     s.ios.framework  = 'GLKit'
-    s.dependency 'mapsted-sdk-core'
+    s.dependency 'mapsted-sdk-core','4.1.0-beta'
     s.dependency 'mapsted-sdk-core-map'
 end  
