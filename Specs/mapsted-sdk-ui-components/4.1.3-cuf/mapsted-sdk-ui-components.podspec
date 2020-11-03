@@ -9,9 +9,9 @@ Pod::Spec.new do |s|
 
     s.platform          = :ios 
     s.source            = { :git => "https://github.com/Mapsted/mapsted-sdk-ui-components.git", :tag => '4.1.3-cuf' }
-    s.source_files  = "uicomponents.framework/Headers/*.{h,m}"
+    s.source_files  = "MapstedUiComponents.framework/Headers/*.{h,m}"
     s.ios.deployment_target = '12.0'
-    s.ios.vendored_frameworks = 'uicomponents.framework'
+    s.ios.vendored_frameworks = 'MapstedUiComponents.framework'
     s.dependency 'Firebase/Core'
     s.dependency 'Firebase/Messaging'
     s.dependency 'ColorThiefSwift'
