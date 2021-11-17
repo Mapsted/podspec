@@ -11,7 +11,7 @@ Pod::Spec.new do |s|
     s.source            = { :git => "https://github.com/Mapsted/mapsted-sdk-loc-marketing.git", :tag => '4.5.3' }
     s.source_files  = "LocationMarketing.framework/Headers/*.{h,m}"
     s.ios.deployment_target = '12.3'
-    s.ios.vendored_frameworks = "LocationMarketing.framework, MapstedTriggersCore.framework"
+    s.ios.vendored_frameworks = "LocationMarketing.framework", "MapstedTriggersCore.framework"
     s.libraries = "z", "c++"
     s.ios.framework  = 'GLKit'
     s.dependency 'mapsted-sdk-core','4.5.3'
