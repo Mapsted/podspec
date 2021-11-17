@@ -11,7 +11,7 @@ Pod::Spec.new do |s|
     s.source            = { :git => "https://github.com/Mapsted/mapsted-sdk-map-ui.git", :tag => '4.5.3' }
     s.source_files  = "MapstedMapUi.framework/Headers/*.{h,m}"
     s.ios.deployment_target = '12.3'
-    s.ios.vendored_frameworks = "MapstedMapUi.framework, MapstedComponentsCore.framework, MapstedComponentsUI.framework"
+    s.ios.vendored_frameworks = "MapstedMapUi.framework", "MapstedComponentsCore.framework", "MapstedComponentsUI.framework"
     s.libraries = "z", "c++"
     s.dependency 'mapsted-sdk-map', '4.5.3'
     s.dependency 'mapsted-sdk-loc-marketing', '4.5.3'
