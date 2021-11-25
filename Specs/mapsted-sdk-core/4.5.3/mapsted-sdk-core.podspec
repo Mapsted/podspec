@@ -13,7 +13,7 @@ Pod::Spec.new do |s|
     s.ios.deployment_target = '12.3'
     s.ios.vendored_frameworks = 'MapstedCore.framework'
     s.libraries = "z", "c++"
-    s.dependency 'CocoaMQTT'
+    s.dependency 'CocoaMQTT', '~>1.0'
     s.dependency 'SSZipArchive'
     s.dependency 'AWSMobileClient'
     s.dependency 'AWSS3'
