@@ -1,6 +1,6 @@
 Pod::Spec.new do |s|  
     s.name              = 'mapsted-sdk-core'
-    s.version           = '4.0.1'
+    s.version           = '4.6.4.2'
     s.summary           = 'Mapsted Mobile SDK for indoor positioning'
     s.homepage          = 'https://mapsted.com/developer-tools-resources-indoor-navigation-api'
 
@@ -8,14 +8,12 @@ Pod::Spec.new do |s|
     s.license          = 'Mapsted Corp.'
 
     s.platform          = :ios 
-    s.source            = { :git => "https://github.com/Mapsted/mapsted-sdk-positioning.git", :tag => '4.0.1' }
+    s.source            = { :http => "https://github.com/Mapsted/mapsted-sdk-positioning/raw/master/MapstedCore_4.6.4.2.framework.zip" }
     s.source_files  = "MapstedCore.framework/Headers/*.{h,m}"
-    s.ios.deployment_target = '12.0'
+    s.ios.deployment_target = '12.3'
     s.ios.vendored_frameworks = 'MapstedCore.framework'
     s.libraries = "z", "c++"
-    s.dependency 'Alamofire'
-    s.dependency 'Alamofire-Synchronous'
-    s.dependency 'CocoaMQTT'
+    s.dependency 'CocoaMQTT', '~>1.0'
     s.dependency 'SSZipArchive'
     s.dependency 'AWSMobileClient'
     s.dependency 'AWSS3'
