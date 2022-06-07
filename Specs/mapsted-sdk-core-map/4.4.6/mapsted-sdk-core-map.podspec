@@ -8,7 +8,7 @@ Pod::Spec.new do |s|
     s.license          = 'Mapsted Corp.'
 
     s.platform          = :ios
-    s.source            = { :http => "https://github.com/Mapsted/core-map-sdk/blob/main/core-map-sdk-4.4.6.zip" }
+    s.source            = { :http => "https://github.com/Mapsted/core-map-sdk/raw/main/core-map-sdk-4.4.6.zip" }
     s.ios.deployment_target = '12.3'
     s.ios.vendored_frameworks = "MapSDK.framework"
     s.libraries = "z", "c++"
