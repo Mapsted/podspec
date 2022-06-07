@@ -12,5 +12,4 @@ Pod::Spec.new do |s|
     s.ios.deployment_target = '12.3'
     s.ios.vendored_frameworks = "MapSDK.framework"
     s.libraries = "z", "c++"
-    s.ios.framework  = 'GLKit'
 end  
