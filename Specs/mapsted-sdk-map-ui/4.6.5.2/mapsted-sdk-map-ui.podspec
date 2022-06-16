@@ -1,6 +1,6 @@
 Pod::Spec.new do |s|  
     s.name              = 'mapsted-sdk-map-ui'
-    s.version           = '4.6.5.1'
+    s.version           = '4.6.5.2'
     s.summary           = 'Mapsted Mobile SDK for map UI'
     s.homepage          = 'https://mapsted.com/developer-tools-resources-indoor-navigation-api'
 
