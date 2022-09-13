@@ -1,7 +1,7 @@
 Pod::Spec.new do |s|  
-    s.name              = 'mapsted-sdk-triggers-core'
+    s.name              = 'mapsted-sdk-alerts'
     s.version           = '4.6.13.1'
-    s.summary           = 'Mapsted Mobile Core SDK for alerts and marketing'
+    s.summary           = 'Mapsted Mobile SDK for alerts'
     s.homepage          = 'https://developer.mapsted.com/getting-started/'
 
     s.author            = { 'Mapsted' => 'https://mapsted.com' }
@@ -9,10 +9,10 @@ Pod::Spec.new do |s|
 
     s.platform          = :ios
     s.source            = { :git => "https://github.com/Mapsted/mapsted-sdk-loc-marketing.git", :tag => '4.6.13.1' }
-    s.source_files  = "MapstedTriggersCore.framework/Headers/*.{h,m}"
+    s.source_files  = "MapstedAlerts.framework/Headers/*.{h,m}"
     s.ios.deployment_target = '12.3'
-    s.ios.vendored_frameworks = "MapstedTriggersCore.framework"
+    s.ios.vendored_frameworks = "MapstedAlerts.framework"
     s.libraries = "z", "c++"
     s.ios.framework  = 'GLKit'
-    s.dependency 'mapsted-sdk-core','4.6.13.1'
-end
+    s.dependency 'mapsted-sdk-triggers-core','4.6.13.1'
+end  
