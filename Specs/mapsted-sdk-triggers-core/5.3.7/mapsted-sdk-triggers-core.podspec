@@ -1,5 +1,5 @@
 Pod::Spec.new do |s|  
-    s.name              = 'mapsted-dk-triggers-core'
+    s.name              = 'mapsted-sdk-triggers-core'
     s.version           = '5.3.7'
     s.summary           = 'Mapsted Mobile Core SDK for alerts and marketing'
     s.homepage          = 'https://developer.mapsted.com/getting-started/'
