@@ -16,5 +16,5 @@ Pod::Spec.new do |s|
     s.dependency 'mapsted-sdk-map', '5.3.19'
     s.dependency 'mapsted-sdk-loc-marketing', '5.3.19'
     s.dependency 'mapsted-sdk-alerts', '5.3.19'
-    s.dependency ‘mapsted-sdk-location-share’,'5.3.19'
+    s.dependency 'mapsted-sdk-location-share','5.3.19'
 end
