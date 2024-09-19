@@ -14,7 +14,6 @@ Pod::Spec.new do |s|
     s.libraries = "z", "c++"
     s.dependency 'mapsted-sdk-loc-marketing', '6.0'
     s.dependency 'mapsted-sdk-alerts', '6.0'
-    s.dependency 'mapsted-sdk-components', '6.0'
     s.dependency 'mapsted-sdk-core','6.0'
     s.dependency 'mapsted-sdk-map', '6.0'
     s.dependency 'mapsted-sdk-location-share','6.0' 
