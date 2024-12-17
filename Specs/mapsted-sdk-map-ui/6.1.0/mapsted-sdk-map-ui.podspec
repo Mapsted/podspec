@@ -8,7 +8,7 @@ Pod::Spec.new do |s|
     s.license          = 'Mapsted Corp.'
 
     s.platform          = :ios
-    s.source            = { :git => "https://github.com/Mapsted/mapsted-sdk-map-ui.git", :tag => '6.0.3' }
+    s.source            = { :git => "https://github.com/Mapsted/mapsted-sdk-map-ui.git", :tag => '6.1.0' }
     s.source_files  = "MapstedMapUi.framework/Headers/*.{h,m}"
     s.ios.deployment_target = '13.0'
     s.ios.vendored_frameworks = "MapstedMapUi.framework", "MapstedComponentsCore.framework", "MapstedComponentsUI.framework"
