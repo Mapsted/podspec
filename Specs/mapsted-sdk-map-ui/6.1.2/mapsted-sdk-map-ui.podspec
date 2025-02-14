@@ -17,6 +17,6 @@ Pod::Spec.new do |s|
     s.dependency 'mapsted-sdk-loc-marketing', '6.1.2'
     s.dependency 'mapsted-sdk-alerts', '6.1.2'
     s.dependency 'mapsted-sdk-location-share','6.1.2'
-    s.dependency 'mapsted-sdk-topbar-notification','6.1.2'6.1.2
+    s.dependency 'mapsted-sdk-topbar-notification','6.1.2'
     s.dependency 'SDWebImage'
 end
