@@ -17,7 +17,7 @@ Pod::Spec.new do |s|
     s.dependency 'mapsted-sdk-core','6.2.1'
     s.dependency 'mapsted-sdk-map', '6.2.1'
     s.dependency 'mapsted-sdk-location-share','6.2.1' 
-    s.dependency 'mapsted-sdk-map-ui','6.2.1' 6.2.1
+    s.dependency 'mapsted-sdk-map-ui','6.2.1' 
     s.dependency 'mapsted-sdk-triggers-core','6.2.1' 
     s.dependency 'mapsted-sdk-topbar-notification','6.2.1'
     s.dependency 'SSZipArchive'
